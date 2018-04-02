@@ -1,0 +1,14 @@
+Useful commands
+
+grep -rnw '/path/to/somewhere/' -e 'pattern.*' % Find files containing pattern of text in a directory (wildcard allows files to have additions beyond "pattern")
+
+
+pushd \\server\share % create temp mapping to network drive to be able to run jupyter notebook from W:
+e.g., "pushd \\144.92.218.131\data"
+
+
+%% Below code was left in analyzeInVivoMUA_UPstates.  May be missing control data for 17127 as a result--forget why I put that continue statement there.
+
+    if strcmp(pars.animal,'Dr Xenon') && iFile == 1 && strcmp(exptInfo,['17127-008'])
+        continue
+    end
