@@ -7,7 +7,7 @@ pushd \\server\share % create temp mapping to network drive to be able to run ju
 e.g., "pushd \\144.92.218.131\data"
 
 
-%% Below code was left in analyzeInVivoMUA_UPstates.  May be missing control data for 17127 as a result--forget why I put that continue statement there.
+%% Below code was left in analyzeInVivoMUA_UPstates.  May be missing control data for 17127 as a result??--forget why I put that continue statement there, or if it was just temporary for some debugging or for only running a subset of data
 
     if strcmp(pars.animal,'Dr Xenon') && iFile == 1 && strcmp(exptInfo,['17127-008'])
         continue
